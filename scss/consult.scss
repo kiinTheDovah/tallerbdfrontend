@@ -1,0 +1,46 @@
+table {
+  border-radius: 25px;
+  border-collapse: collapse;
+  width: auto;
+  margin: auto;
+}
+tr:nth-child(1) {
+  background-color: #27231f;
+}
+td,
+th {
+  // border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  border-radius: 25px;
+}
+tr {
+  border-radius: 25px;
+  background-color: #5a5a5f;
+}
+tr:nth-child(even) {
+  border-radius: 25px;
+  background-color: #38383a;
+}
+tr:nth-child(1) {
+  background-color: #2a2a2e;
+}
+
+.contain {
+  display: flex;
+  justify-content: center;
+}
+#tableP {
+  border-radius: 25px;
+  background: #434346;
+  color: #e4e4e4;
+  padding: 18px;
+  box-shadow: 0 0 20px 0 #00000033, 0 5px 5px 0 #0000003d;
+
+  display: none;
+  position: relative;
+  size: 100%;
+  width: auto;
+  height: auto;
+  margin: 5vh auto auto;
+}

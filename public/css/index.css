@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 30px;
+  color: #888;
+  background: #865822;
+  height: 100%;
+}
+
+header {
+  font-size: 1rem;
+  color: #ccc;
+  width: 100%;
+  background-color: #4e3314;
+  height: auto;
+}
+
+header h1 {
+  margin: auto;
+  text-align: center;
+  padding: 0.4em 0 0 0;
+}
+
+header nav {
+  height: auto;
+  margin: auto;
+  text-align: center;
+  padding: 1rem;
+}
+
+header a {
+  display: inline-block;
+  border-radius: 15px;
+  text-decoration: none;
+  height: auto;
+  background-color: #2b231c;
+  margin: 2px 2px;
+  color: #fff;
+  padding: 0.8em;
+}
+
+header a:hover {
+  background-color: #d37f30;
+  transition: ease-in 0.2s;
+}
+
+.active {
+  background-color: #d37f30;
+  color: #111;
+}
+
+.container {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  width: 100%;
+  margin: 10vh auto auto;
+  height: auto;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}

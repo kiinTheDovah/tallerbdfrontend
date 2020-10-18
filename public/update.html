@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/contactBox.css" />
+
+    <title>Update Pacients</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Taller Base de Datos Univalle</h1>
+      <nav>
+        <a href="index.html">Consult</a>
+        <a href="add.html">Add Pacient</a>
+        <a href="update.html" class="active">Update Pacient</a>
+        <a href="delete.html">Delete</a>
+      </nav>
+    </header>
+
+    <div class="container">
+      <form id="contact" action="" method="post">
+        <h3>Database Pacients</h3>
+        <h4>Update Pacients information</h4>
+        <fieldset>
+          <input
+            placeholder="Pacient Name"
+            name="nombre"
+            type="text"
+            tabindex="1"
+            required
+            autofocus
+          />
+        </fieldset>
+        <fieldset>
+          <input
+            placeholder="Pacient Lastname"
+            name="apellido"
+            type="text"
+            tabindex="1"
+            required
+            autofocus
+          />
+        </fieldset>
+        <fieldset>
+          <input
+            placeholder="Pacient ID"
+            name="identificacion"
+            type="text"
+            tabindex="2"
+            required
+          />
+        </fieldset>
+        <fieldset>
+          <button
+            name="submit"
+            type="submit"
+            id="contact-submit"
+            data-submit="...Sending"
+          >
+            Submit
+          </button>
+        </fieldset>
+      </form>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
